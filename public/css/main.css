@@ -1,0 +1,172 @@
+.navbar-nav{
+    margin-left:auto ;
+}
+.navbar-nav a{
+    color: rgb(0, 4, 240);
+}
+.image-with-text {
+    position: relative;
+    display: inline-block;
+}
+
+.image-with-text img {
+    display: block;
+    height: 500px;
+    width: 99vw;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    height: 500px;
+    width: 99vw;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.image-with-text .text-overlay h1 {
+    margin-top: 50px;
+    font-size: 70px;
+    color: whitesmoke;
+}
+
+.image-with-text .text-overlay h4 {
+    margin-top: 40px;
+    color: whitesmoke;
+}
+
+.image-with-text .text-overlay h2 {
+    width: 90vw;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+
+.today {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 174, 0);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #f1f509;
+}
+.card-container .card{
+    display: inline-block;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.493);
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.soshel{
+    background-color: black;
+    height: 250px;
+}
+.soshel h1{
+    color: whitesmoke;
+}
+.soshel h4{
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.imag img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu{
+    background-color: rgb(255, 174, 0);
+    padding: 110px;
+}
+.m1{
+    margin-bottom: 30px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.main-title {
+    flex: 1;
+    padding: 70px;
+    height: 450px;
+}
+
+.main-image {
+    flex: 1;
+    text-align: start;
+    margin-top: 60px;
+}
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    text-align: end;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+
+.title-container {
+    flex: 1;
+}
+.foo{
+    height: 600px;
+}
+.fooo{
+    width: 40%;
+    height: 550px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.fooo form{
+    background-color: whitesmoke;
+    height: 500px;
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.733);
+}
+input {
+    display: block;
+    border-radius: 20px;
+    padding: 7px;
+    width: 300px;
+    border: none;
+    background-color: rgb(223, 220, 216);
+}
+textarea {
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(223, 220, 216);
+}
+form .button{
+    width: 100px;
+}
+
+label{
+
+    margin-top: 15px;
+}
+.bo{
+    background-color: rgb(255, 174, 0);
+}
